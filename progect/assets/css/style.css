@@ -1,0 +1,25 @@
+body{
+    color: red;
+}
+
+h1{
+    
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 133px;
+    margin-top: -60px;
+    color: black;
+    font-size: auto;
+
+}
+
+.line{
+    box-shadow: 0 -125px 0 8px ;
+    color: rgb(242,172,4);
+}
+
+.logo{
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 35px
+}
