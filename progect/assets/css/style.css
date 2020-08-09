@@ -73,6 +73,7 @@ a {
     font-size:23px;
     margin-top: 50px;
     
+    
 }
 
 /* для линии сверху */
@@ -99,3 +100,62 @@ a {
             background:#000
 }
 
+.product{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    text-transform: uppercase;
+    color:black;
+}
+
+.kaktys{
+    position: absolute;
+    left:5%;
+    top:45%;
+    
+}
+
+.show{
+    position: absolute;
+    left:40%;
+    top:45%;
+}
+
+.swith{
+    position: absolute;
+    left:5%;
+    top:82%;
+}
+.text_photout{
+    width: 110%;
+    position: absolute;
+    left:40%;
+    top:75%;
+    font-size: 115%;
+    color: black;
+}
+.text_photout::after{
+    content:"";
+    position:absolute;
+    top:2%;
+    left:52%;
+    width:40.3%;
+    height:1.5px;
+    margin-left:-52%;
+    background:#000
+}
+
+.more{
+    position:absolute;
+    right:16%;
+    top: 95%;
+    
+    text-decoration: none;
+    
+    
+    
+    
+    
+}
