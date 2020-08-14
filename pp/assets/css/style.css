@@ -1,0 +1,190 @@
+html,
+body,
+header {
+    width: 100%;
+    height: 936px;
+
+}
+
+h1 {
+    margin: 0 15px;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.intro {
+    width: 100%;
+    height: 936px;
+    background: url(../img/fon.jpg) center no-repeat;
+    background-size: cover;
+
+}
+
+.menu__item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu__item {
+    margin: 0 37px;
+
+}
+
+.menu {
+    padding-top: 41px;
+    padding-left: 150px;
+    
+
+}
+
+.button1 {
+    font-size: 18px;
+    background-color: #6197c0;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -15px;
+    text-align: center;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    /* убирать подчёркивание у ссылок */
+    user-select: none;
+    border: none;
+    margin: 0 37px;
+}
+
+.imges {
+    padding-top: 38px;
+    padding-right: 300px;
+}
+
+.text_intro {
+    text-transform: uppercase;
+    line-height: 3em;
+    font-size: 35px;
+}
+
+.text {
+    width: 100%;
+    font-size: 17px;
+    line-height: 1.5em;
+    word-spacing: 0.1em;
+
+}
+
+.text_but {
+    margin-top: 305px;
+    margin-left: 220px;
+}
+
+.button2 {
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+
+}
+
+#b2:hover {
+    width: 230px;
+    -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button3 {
+    font-size: 18px;
+    background-color: #6197c0;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    /* убирать подчёркивание у ссылок */
+    user-select: none;
+    
+}
+
+#b3:hover {
+
+    background-color: #ff3434;
+
+
+}
+
+.button1:active,
+button1:focus,
+button1:hover {
+
+    background: rgb(232, 95, 76);
+    background: rgb(152, 15, 0);
+}
+.text_but{
+    margin-left: -120px;
+    margin-bottom: 150px;
+    
+}
+.text2{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 450px){
+    .intro{
+        width: 100%;
+    }
+    .menu{
+        flex-direction: column;
+        text-align: left;
+        
+    }
+    .text_but{
+       margin-left: 0px ;
+    }
+}
+
+.text_prev2{
+    font-size: 25px;
+    color: darkcyan;
+    text-align: center;
+}
+.text_prev2_1{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    
+    padding-bottom: 15px;
+    
+    
+}
+.text_prev2_1::after{
+            content:"";
+            position:absolute;
+            bottom:0;
+            left:50%;
+            width:20px;
+            height:2px;
+            margin-left: -10px;
+            background:#000
+}
